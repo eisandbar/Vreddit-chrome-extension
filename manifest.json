@@ -1,0 +1,6 @@
+{
+    "name": "Vreddit Download",
+    "description": "Extension for easy download of v.redd.it links",
+    "version": "1.0",
+    "manifest_version": 2
+}
