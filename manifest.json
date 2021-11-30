@@ -8,5 +8,8 @@
             "matches": ["https://*.reddit.com/r/*"],
             "js": ["main.js"]
         }
-    ]
+    ],
+    "background" : {
+        "scripts": ["background.js"]
+    }
 }

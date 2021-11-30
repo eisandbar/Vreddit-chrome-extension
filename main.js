@@ -22,6 +22,11 @@ function onUrlChange(url) {
             try {
             const video = this.response[0].data.children[0].data.secure_media.reddit_video.fallback_url
             console.log(video)
+            chrome.runtime.sendMessage({
+                url: video,
+                file: "vreddit.mp4",
+                origin: url,
+            })
             } catch {
             console.log("No videos here")
             }
