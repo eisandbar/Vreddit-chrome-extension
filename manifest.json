@@ -2,5 +2,11 @@
     "name": "Vreddit Download",
     "description": "Extension for easy download of v.redd.it links",
     "version": "1.0",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://*.reddit.com/r/*"],
+            "js": ["main.js"]
+        }
+    ]
 }
